@@ -24,75 +24,40 @@ void vendor_load_properties()
     device_variant variant = check_device_and_get_variant();
 
     switch (variant) {
-        case G930F:
-            /* heroltexx */
-            property_set("ro.build.fingerprint", "samsung/heroltexx/herolte:7.0/NRD90M/G930FXXU1ZPLH:user/release-keys");
-            property_set("ro.build.description", "heroltexx-user 7.0 NRD90M G930FXXU1ZPLH release-keys");
-            property_set("ro.product.model", "SM-G930F");
-            property_set("ro.product.device", "heroltexx");
+        case J710FN:
+            /* j7xeltexx */
+            property_set("ro.build.fingerprint", "samsung/j7xeltexx/j7xelte:6.0.1/MMB29K/J710FXXU3AQD4:user/release-keys");
+            property_set("ro.build.description", "j7xeltexx-user 6.0.1 MMB29K J710FXXU3AQD4 release-keys");
+            property_set("ro.product.model", "SM-J710FN");
+            property_set("ro.product.device", "j7xeltexx");
             break;
-        case G930W8:
-            /* heroltebmc */
-            property_set("ro.build.fingerprint", "samsung/heroltebmc/herolte:7.0/NRD90M/G930W8XXU1ZPLH:user/release-keys");
-            property_set("ro.build.description", "heroltebmc-user 7.0 NRD90M G930W8XXU1ZPLH release-keys");
-            property_set("ro.product.model", "SM-G930W8");
-            property_set("ro.product.device", "heroltebmc");
+        case J710MN:
+            /* j7xelteub */
+            property_set("ro.build.fingerprint", "samsung/j7xelteub/j7xelte:6.0.1/MMB29K/J710FXXU3AQD4:user/release-keys");
+            property_set("ro.build.description", "j7xelteub-user 6.0.1 MMB29K J710FXXU3AQD4 release-keys");
+            property_set("ro.product.model", "SM-J710MN");
+            property_set("ro.product.device", "j7xelteub");
             break;
-        case G930S:
-            /* herolteskt */
-            property_set("ro.build.fingerprint", "samsung/herolteskt/herolte:7.0/NRD90M/G930SXXU1ZPLH:user/release-keys");
-            property_set("ro.build.description", "herolteskt-user 7.0 NRD90M G930SXXU1ZPLH release-keys");
-            property_set("ro.product.model", "SM-G930S");
-            property_set("ro.product.device", "herolteskt");
+        case J710K:
+            /* j7xeltektt */
+            property_set("ro.build.fingerprint", "samsung/j7xeltektt/j7xelte:6.0.1/MMB29K/J710FXXU3AQD4:user/release-keys");
+            property_set("ro.build.description", "j7xeltektt-user 6.0.1 MMB29K J710FXXU3AQD4 release-keys");
+            property_set("ro.product.model", "SM-J710K");
+            property_set("ro.product.device", "j7xeltektt");
             break;
-        case G930K:
-            /* heroltektt */
-            property_set("ro.build.fingerprint", "samsung/heroltektt/herolte:7.0/NRD90M/G930KXXU1ZPLH:user/release-keys");
-            property_set("ro.build.description", "heroltektt-user 7.0 NRD90M G930KXXU1ZPLH release-keys");
-            property_set("ro.product.model", "SM-G930K");
-            property_set("ro.product.device", "heroltektt");
+        case J710GN:
+            /* j7xeltedx */
+            property_set("ro.build.fingerprint", "samsung/j7xeltedx/j7xelte:6.0.1/MMB29K/J710FXXU3AQD4:user/release-keys");
+            property_set("ro.build.description", "j7xeltedx-user 6.0.1 MMB29K J710FXXU3AQD4 release-keys");
+            property_set("ro.product.model", "SM-J710GN");
+            property_set("ro.product.device", "j7xeltedx");
             break;
-        case G930L:
-            /* heroltelgt */
-            property_set("ro.build.fingerprint", "samsung/heroltelgt/herolte:7.0/NRD90M/G930LXXU1ZPLH:user/release-keys");
-            property_set("ro.build.description", "heroltelgt-user 7.0 NRD90M G930LXXU1ZPLH release-keys");
-            property_set("ro.product.model", "SM-G930L");
-            property_set("ro.product.device", "heroltelgt");
-            break;
-        case G935W8:
-            /* hero2ltebmc */
-            property_set("ro.build.fingerprint", "samsung/hero2ltebmc/hero2lte:7.0/NRD90M/G935W8XXU1ZPLH:user/release-keys");
-            property_set("ro.build.description", "hero2ltebmc-user 7.0 NRD90M G935W8XXU1ZPLH release-keys");
-            property_set("ro.product.model", "SM-G935W8");
-            property_set("ro.product.device", "hero2ltebmc");
-            break;
-        case G935S:
-            /* hero2lteskt */
-            property_set("ro.build.fingerprint", "samsung/hero2lteskt/hero2lte:7.0/NRD90M/G935SXXU1ZPLH:user/release-keys");
-            property_set("ro.build.description", "hero2lteskt-user 7.0 NRD90M G935SXXU1ZPLH release-keys");
-            property_set("ro.product.model", "SM-G935S");
-            property_set("ro.product.device", "hero2lteskt");
-            break;
-        case G935K:
-            /* hero2ltektt */
-            property_set("ro.build.fingerprint", "samsung/hero2ltektt/hero2lte:7.0/NRD90M/G935KXXU1ZPLH:user/release-keys");
-            property_set("ro.build.description", "hero2ltektt-user 7.0 NRD90M G935KXXU1ZPLH release-keys");
-            property_set("ro.product.model", "SM-G935K");
-            property_set("ro.product.device", "hero2ltektt");
-            break;
-        case G935L:
-            /* hero2ltelgt */
-            property_set("ro.build.fingerprint", "samsung/hero2ltelgt/hero2lte:7.0/NRD90M/G935LXXU1ZPLH:user/release-keys");
-            property_set("ro.build.description", "hero2ltelgt-user 7.0 NRD90M G935LXXU1ZPLH release-keys");
-            property_set("ro.product.model", "SM-G935L");
-            property_set("ro.product.device", "hero2ltelgt");
-            break;
-        default: /* G935F */
-            /* hero2ltexx */
-            property_set("ro.build.fingerprint", "samsung/hero2ltexx/hero2lte:7.0/NRD90M/G935FXXU1ZPLH:user/release-keys");
-            property_set("ro.build.description", "hero2ltexx-user 7.0 NRD90M G935FXXU1ZPLH release-keys");
-            property_set("ro.product.model", "SM-G935F");
-            property_set("ro.product.device", "hero2ltexx");
+        default: /* J710F */
+            /* j7xeltexx */
+            property_set("ro.build.fingerprint", "samsung/j7xeltexx/j7xelte:6.0.1/MMB29K/J710FXXU3AQD4:user/release-keys");
+            property_set("ro.build.description", "j7xeltexx-user 6.0.1 MMB29K J710FXXU3AQD4 release-keys");
+            property_set("ro.product.model", "SM-J710F");
+            property_set("ro.product.device", "j7xeltexx");
             break;
     }
 
