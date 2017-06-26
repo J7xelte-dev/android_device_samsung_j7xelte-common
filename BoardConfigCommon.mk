@@ -30,9 +30,6 @@ TARGET_NO_RADIOIMAGE := true
 # Audio HAL variant
 TARGET_AUDIOHAL_VARIANT := samsung
 
-# Binder
-TARGET_USES_64_BIT_BINDER := true
-
 # CPUsets
 ENABLE_CPUSETS := true
 
