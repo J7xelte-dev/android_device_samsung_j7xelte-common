@@ -87,8 +87,6 @@ lib/libsensorservice.so
 # Surface Composer
 lib/libion.so
 lib/hw/gralloc.exynos5.so
-lib64/libion.so
-lib64/hw/gralloc.exynos5.so
 
 # Wifi
 etc/wifi/bcmdhd_apsta.bin
